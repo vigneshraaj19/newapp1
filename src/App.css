@@ -1,0 +1,141 @@
+.errors
+{
+  width:100%;
+}
+.body
+{
+  height:100px;
+  width:100px;
+  border:1.5px solid black;
+  font-size: 100px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.board
+{
+  display:flex;
+  flex-wrap:wrap;
+  width:300px;
+}
+.fullgame
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center
+{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App {
+  text-align: center;
+}
+.list
+{
+  display: flex;
+  flex-direction: column;
+  margin:16px;
+  gap: 10px;
+}
+.router-container
+{
+  margin:30px 1px;
+}
+.mainpage
+{
+  text-align: center;
+  margin: 50px;
+}
+.img {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.img:hover {
+  transform: translateY(1px);
+  box-shadow: 2px 2px 20px 2px rgb(53, 51, 51);
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.cards {
+  width: 400px;
+  font-size: 20px;
+  height: min-content;
+}
+
+.cardtitle {
+  font-family: 'Chicle', cursive;
+font-size: 25px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.description {
+  font-family: 'Carter One', cursive;
+  font-style: oblique;
+  letter-spacing: 2px;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+
+.infoOutlineIcon {
+  cursor: pointer;
+}
+.rating
+{
+  
+  font-family: 'Carter One', cursive;
+  font-style: oblique;
+  letter-spacing: 2px;
+  font-weight: 1000;
+  align-items: center;
+  
+}
+.pfont
+{
+  font-family: 'Chicle', cursive;
+}
+.form-order
+{
+  text-align: center;
+  margin: 50px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  }
+
+label {
+  font-size: .7rem;
+}
+
+input.form-control, input.form-control:focus {
+  background: #F0F0FF;
+}
+
+.error {
+  position: absolute;
+  color: red;
+  font-size: .6rem;
+}
+.button-locate{
+  align-items: center;
+}
+
